@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.Rendering;
 using UnityEngine.UIElements;
 
-public class DesertScene : MonoBehaviour
+public class Test3 : MonoBehaviour
 {
     public GameObject[,] forestGrid;
     public int rowsofForest;

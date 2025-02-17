@@ -267,7 +267,6 @@ GameObject:
   - component: {fileID: 410087040}
   - component: {fileID: 410087042}
   - component: {fileID: 410087043}
-  - component: {fileID: 410087044}
   m_Layer: 0
   m_Name: Directional Light
   m_TagString: Untagged
@@ -385,24 +384,9 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 410087039}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d8475aa4f5e346f489743b3f5c115bda, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  rowsofForest: 0
-  columnsofForest: 0
-  pyramidSize: 0
---- !u!114 &410087044
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 410087039}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f32bd7d677dd79f46bbc063f01504aa0, type: 3}
+  m_Script: {fileID: 11500000, guid: c67ca222bb7424a4ca9a24c860ee6c8c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   rowsofForest: 0
