@@ -16,6 +16,7 @@ public class CameraBehavior : MonoBehaviour
         {
             _rb.isKinematic = true;  // Camera should not be affected by external forces
             _rb.interpolation = RigidbodyInterpolation.Interpolate;
+            _rb.useGravity = false;
         }
     }
 

@@ -31,7 +31,8 @@ public class Test3 : MonoBehaviour
     void CreateGround()
     {
         GameObject plane = GameObject.CreatePrimitive(PrimitiveType.Plane);
-        plane.transform.localScale = new Vector3(2, 1, 2); //enlarges plane
+        plane.transform.position = new Vector3(0, 0, 0); // Set plane position in world space
+        plane.transform.localScale = new Vector3(20, 1, 20); //enlarges plane
 
         Renderer renderer = plane.GetComponent<Renderer>();
         //renderer.material = new Material(Shader.Find("Standard"));
