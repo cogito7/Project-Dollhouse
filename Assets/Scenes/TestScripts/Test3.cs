@@ -27,7 +27,7 @@ public class Test3 : MonoBehaviour
         forestGrid = new GameObject[rowsofForest, columnsofForest];//initializes 2D array for trees
         pyramidSize = 5;//initializes size of a pyramid row
     }
-
+    
     void CreateGround()
     {
         GameObject plane = GameObject.CreatePrimitive(PrimitiveType.Plane);
@@ -38,6 +38,7 @@ public class Test3 : MonoBehaviour
         //renderer.material = new Material(Shader.Find("Standard"));
         renderer.material.color = Color.green;
     }
+    
     void CreateRandomForest()
     {
         GameObject cylinderParent = new GameObject("CylinderParent");

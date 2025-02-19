@@ -27,9 +27,13 @@ public class CameraBehavior : MonoBehaviour
         Vector3 desiredPosition = _target.TransformPoint(CamOffset);
         _rb.MovePosition(desiredPosition); // Smooth movement using physics
 
-        // Look at the target smoothly
-        Quaternion targetRotation = Quaternion.LookRotation(_target.position - transform.position);
-        _rb.MoveRotation(targetRotation);
+        // Ensure the camera has a valid direction to look at
+        Vector3 direction = _target.position - transform.position;
+        if (direction != Vector3.zero) // Prevent zero vector error
+        {
+            Quaternion targetRotation = Quaternion.LookRotation(direction);
+            _rb.MoveRotation(targetRotation);
+        }
     }
 }
 

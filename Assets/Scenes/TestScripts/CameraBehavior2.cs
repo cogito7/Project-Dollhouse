@@ -5,7 +5,7 @@ public class CameraBehavior2 : MonoBehaviour
     public Vector3 CamOffset = new Vector3(0f, 2.8f, -3.5f);
     private Transform _target;
     private Rigidbody _rb;
-    public float rotationSpeed = 5f; // Adjust the speed of rotation towards the target
+    //public float rotationSpeed = 5f; // Adjust the speed of rotation towards the target
 
     void Start()
     {
@@ -25,15 +25,15 @@ public class CameraBehavior2 : MonoBehaviour
     {
         if (_target == null) return;
 
-        // Smooth camera movement to desired position
         Vector3 desiredPosition = _target.TransformPoint(CamOffset);
         _rb.MovePosition(desiredPosition); // Smooth movement using physics
 
-        // Smoothly rotate camera towards the player
-        Vector3 directionToTarget = _target.position - transform.position;
-        Quaternion targetRotation = Quaternion.LookRotation(directionToTarget);
-
-        // Apply smooth rotation
-        transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, rotationSpeed * Time.fixedDeltaTime);
+        // Ensure the camera has a valid direction to look at
+        Vector3 direction = _target.position - transform.position;
+        if (direction != Vector3.zero) // Prevent zero vector error
+        {
+            Quaternion targetRotation = Quaternion.LookRotation(direction);
+            _rb.MoveRotation(targetRotation);
+        }
     }
 }
