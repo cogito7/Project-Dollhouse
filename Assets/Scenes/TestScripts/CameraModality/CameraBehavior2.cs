@@ -5,7 +5,7 @@ public class CameraBehavior2 : MonoBehaviour
     public Vector3 CamOffset = new Vector3(0f, 2.8f, -3.5f);
     private Transform _target;
     private Rigidbody _rb;
-    //public float rotationSpeed = 5f; // Adjust the speed of rotation towards the target
+
 
     void Start()
     {
