@@ -12,15 +12,19 @@ public class PlayerBehavior2 : MonoBehaviour
     private Rigidbody _rb;
     private Transform _cameraTransform;
     private float _mouseX;
+    public float groundDrag = 4f; // prevent sliding on the ground with friction
+    private bool _isGrounded;
 
     void Start()
     {
         _rb = GetComponent<Rigidbody>();
         _cameraTransform = GameObject.Find("Camera2").transform; // Gets the 2nd camera location
+        _rb.drag = groundDrag; //apply grounding to reduce sliding
     }
 
     void Update()
     {
+        _isGrounded = Physics.Raycast(transform.position, Vector3.down, 1.2f); //ground status
         // Get movement input
         _vInput = Input.GetAxis("Vertical"); // W & S (Forward & Back)
         _hInput = Input.GetAxis("Horizontal"); //A & D (Left & Right)
@@ -55,4 +59,5 @@ public class PlayerBehavior2 : MonoBehaviour
     {
         return Physics.Raycast(transform.position, Vector3.down, 1.1f);
     }
+
 }
