@@ -20,7 +20,7 @@ public class PlayerBehavior : MonoBehaviour
     {
         _rb = GetComponent<Rigidbody>();
         _cameraTransform = Camera.main.transform; // Gets the main camera location
-        _rb.drag = groundDrag; //apply grounding to reduce sliding
+        _rb.linearDamping = groundDrag; //apply grounding to reduce sliding
     }
 
     void Update()

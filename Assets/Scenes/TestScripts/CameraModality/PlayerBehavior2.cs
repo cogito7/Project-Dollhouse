@@ -19,7 +19,7 @@ public class PlayerBehavior2 : MonoBehaviour
     {
         _rb = GetComponent<Rigidbody>();
         _cameraTransform = GameObject.Find("Camera2").transform; // Gets the 2nd camera location
-        _rb.drag = groundDrag; //apply grounding to reduce sliding
+        _rb.linearDamping = groundDrag; //apply grounding to reduce sliding
     }
 
     void Update()
