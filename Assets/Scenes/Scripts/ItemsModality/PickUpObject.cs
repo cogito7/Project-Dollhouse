@@ -5,10 +5,14 @@ public class PickUpObject : MonoBehaviour
 {
     public GameObject pickupObject;
     private float rotationSpeed;
+    public string itemID; //unique ID for pickup tracking
+
     void Start()
     {
         rotationSpeed = .001f;
         pickupObject.GetComponent<Renderer>().material.color = Color.yellow;
+
+        
     }
 
     void Update()
