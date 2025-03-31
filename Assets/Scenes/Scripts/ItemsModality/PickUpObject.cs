@@ -21,11 +21,13 @@ public class PickUpObject : MonoBehaviour
     }
     void OnCollisionEnter(Collision collision)
     {
-        Debug.Log("item collected");
+
+
         if (collision.gameObject.name == "Player2")
         {
-            Destroy(this.transform.gameObject);
-            
+            Debug.Log("item collected");
+            ItemTracker.Instance.MarkItemAsPicked(itemID);//track item
+            Destroy(gameObject);
         }
     }
 }
