@@ -1,20 +1,29 @@
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class CraftingUIManager : MonoBehaviour
 {
     public GameObject craftingPanel;
+    private bool isOpen = false;
 
     void Start()
     {
         craftingPanel.SetActive(false); // Hide the panel at start
     }
-    public void ShowCraftingUI()
+
+    public void ToggleCraftingUI()
     {
-        craftingPanel.SetActive(true);
+        isOpen = !isOpen;
+        craftingPanel.SetActive(isOpen);
     }
 
-    public void HideCraftingUI()
+    void Update()
     {
-        craftingPanel.SetActive(false);
+
+    }
+
+    private bool IsPointerOverUI()
+    {
+        return EventSystem.current.IsPointerOverGameObject();
     }
 }
