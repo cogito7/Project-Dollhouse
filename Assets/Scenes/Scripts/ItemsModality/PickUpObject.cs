@@ -10,7 +10,7 @@ public class PickUpObject : MonoBehaviour
     void Start()
     {
         rotationSpeed = .001f;
-        pickupObject.GetComponent<Renderer>().material.color = Color.yellow;
+        //pickupObject.GetComponent<Renderer>().material.color = Color.yellow;
 
         
     }
