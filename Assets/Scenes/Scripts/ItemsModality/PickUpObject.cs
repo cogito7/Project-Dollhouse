@@ -6,6 +6,7 @@ public class PickUpObject : MonoBehaviour
     public GameObject pickupObject;
     private float rotationSpeed;
     public string itemID; //unique ID for pickup tracking
+    public Sprite itemSprite;
 
     void Start()
     {
@@ -26,7 +27,8 @@ public class PickUpObject : MonoBehaviour
         if (collision.gameObject.name == "Player2")
         {
             Debug.Log("item collected");
-            ItemTracker.Instance.MarkItemAsPicked(itemID);//track item
+            ItemTracker.Instance.MarkItemAsPicked(itemID);//track item                                             
+            CraftingInventory.Instance.AddItemToInventory(itemID, itemSprite);// Add to crafting panel slot
             Destroy(gameObject);
         }
     }

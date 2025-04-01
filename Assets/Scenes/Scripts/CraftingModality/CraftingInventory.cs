@@ -6,6 +6,16 @@ using UnityEngine.UI;
 
 public class CraftingInventory : MonoBehaviour
 {
+    public static CraftingInventory Instance; // Singleton instance
+
+    private void Awake()
+    {
+        if (Instance == null)
+            Instance = this;
+        else
+            Destroy(gameObject);
+    }
+
     private List<string> inventoryItems = new List<string>();
     public List<Image> inventorySlots;
     public Sprite defaultSprite; //empty slot default sprite
@@ -15,7 +25,7 @@ public class CraftingInventory : MonoBehaviour
 
     private void Start()
     {
-       ;
+       
         //initialize inventory slots
         foreach (Image slot in inventorySlots) 
         {
