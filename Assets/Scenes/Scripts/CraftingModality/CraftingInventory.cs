@@ -1,5 +1,4 @@
 using System.Collections.Generic;
-
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -47,11 +46,10 @@ public class CraftingInventory : MonoBehaviour
         if (!inventoryItems.Contains(itemID))//prevents duplicates
         {
             inventoryItems.Add(itemID);
-
             //find empty slot and update UI
             for (int i = 0; i < inventorySlots.Count; i++)
             {
-                if (!inventorySlots[i].enabled) //if slot is empty
+                if (inventorySlots[i].sprite == defaultSprite) //if slot is empty
                 {
                     inventorySlots[i].sprite = itemSprite;
                     inventorySlots[i].enabled = true; // Show the image
