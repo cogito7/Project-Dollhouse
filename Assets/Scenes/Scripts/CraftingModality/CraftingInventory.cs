@@ -1,5 +1,4 @@
 using System.Collections.Generic;
-
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -28,6 +27,7 @@ public class CraftingInventory : MonoBehaviour
         craftingRecipes.Add(("key1", "key2"), Resources.Load<Sprite>("Sprites/Piano"));
 
     }
+    
     public void AddItemToInventory(string itemID, Sprite itemSprite)
     {
         if (inventoryItems.Count >= 3)
