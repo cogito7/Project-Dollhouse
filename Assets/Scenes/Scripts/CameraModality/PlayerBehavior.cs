@@ -14,6 +14,7 @@ public class PlayerBehavior : MonoBehaviour
     private float _mouseX;
     public float groundDrag = 4f; // prevent sliding on the ground with friction
     private bool _isGrounded;
+    public Animator animator;
 
 
     void Start()
@@ -21,14 +22,20 @@ public class PlayerBehavior : MonoBehaviour
         _rb = GetComponent<Rigidbody>();
         _cameraTransform = Camera.main.transform; // Gets the main camera location
         _rb.linearDamping = groundDrag; //apply grounding to reduce sliding
+        animator = GetComponent<Animator>();//get animator component
     }
 
     void Update()
     {
         _isGrounded = Physics.Raycast(transform.position, Vector3.down, 1.1f); //ground status
+
         // Get movement input
         _vInput = Input.GetAxis("Vertical"); // W & S (Forward & Back)
         _hInput = Input.GetAxis("Horizontal"); //A & D (Left & Right)
+
+        //animator controller input movement
+        float moveAmount = new Vector2(_hInput, _vInput).magnitude;
+        animator.SetFloat("Speed", moveAmount);
 
         // checks if user presses spacebar for jumping
         if (Input.GetKeyDown(KeyCode.Space) && IsGrounded())
