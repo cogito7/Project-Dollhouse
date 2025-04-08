@@ -4358,6 +4358,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CamOffset: {x: 0, y: 2.8, z: -3.5}
+  camera_distance: 2.25
+  MouseSensitivity: 0.1
 --- !u!54 &330585549
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -6547,7 +6549,6 @@ MonoBehaviour:
   MoveSpeed: 5
   RotateSpeed: 75
   JumpForce: 5
-  MouseSensitivity: 2
   groundDrag: 4
   animator: {fileID: 0}
 --- !u!95 &506377804
