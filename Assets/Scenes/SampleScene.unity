@@ -4356,8 +4356,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 020fe7f0631a7a143bb3a0addb807150, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  CamOffset: {x: 0, y: 1.9, z: -1.8}
-  MouseSensitivity: 2
+  CamOffset: {x: 0.5, y: 1.8, z: -2.8}
+  MouseSensitivity: 0.5
 --- !u!54 &330585549
 Rigidbody:
   m_ObjectHideFlags: 0

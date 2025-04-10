@@ -26,6 +26,7 @@ public class PlayerBehavior : MonoBehaviour
 
     void Update()
     {
+        if (CraftingUIManager.IsCraftingOpen) return;
         _isGrounded = Physics.Raycast(transform.position, Vector3.down, 1.1f); //ground status
 
         // Get movement input

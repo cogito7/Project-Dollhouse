@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class CameraBehavior : MonoBehaviour
 {
-    public Vector3 CamOffset = new Vector3(0f, 2.2f, -3.5f);
+    public Vector3 CamOffset = new Vector3(0f, 1.8f, -3.5f);
     private float camera_distance;
     private Transform _target;
     private Rigidbody _rb;
@@ -27,12 +27,25 @@ public class CameraBehavior : MonoBehaviour
         _target = GameObject.Find("Player").transform;
         camera_distance = CamOffset.magnitude;
 
-        Cursor.lockState = CursorLockMode.Locked;
-        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
 
         Vector3 angles = transform.eulerAngles;
         yaw = angles.y;
         pitch = angles.x;
+    }
+    private void Update()
+    {
+        // If the crafting UI is not open, allow mouse movement to affect the camera's rotation
+        if (!CraftingUIManager.IsCraftingOpen)
+        {
+            // Get mouse input for yaw (horizontal) and pitch (vertical)
+            yaw += Input.GetAxis("Mouse X") * MouseSensitivity;
+            pitch -= Input.GetAxis("Mouse Y") * MouseSensitivity;
+
+            // Clamp pitch to avoid flipping the camera
+            pitch = Mathf.Clamp(pitch, -30f, 60f);
+        }
     }
 
     void FixedUpdate() // Use FixedUpdate for physics-based movement
@@ -68,6 +81,19 @@ public class CameraBehavior : MonoBehaviour
         } */
         if (_target == null) return;
 
+
+        // Apply yaw and pitch to rotate the camera
+        Quaternion camRotation = Quaternion.Euler(pitch, yaw, 0f);
+
+        // Calculate the desired camera position based on the rotation and offset
+        Vector3 desiredPosition = _target.position + camRotation * CamOffset;
+
+        // Move the camera to the desired position
+        transform.position = desiredPosition;
+
+        // Make sure the camera is always looking at the player
+        transform.rotation = Quaternion.LookRotation(_target.position - transform.position);
+        /*
         // Get and apply mouse input
         yaw += Input.GetAxis("Mouse X") * MouseSensitivity;
         pitch -= Input.GetAxis("Mouse Y") * MouseSensitivity;
@@ -81,6 +107,7 @@ public class CameraBehavior : MonoBehaviour
         // Move camera and look at target
         transform.position = desiredPosition;
         transform.rotation = Quaternion.LookRotation((_target.position + Vector3.up * 1.0f) - transform.position);
+    */
     }
 
 }
