@@ -20,6 +20,12 @@ public class CraftingUIManager : MonoBehaviour
         IsCraftingOpen = isOpen;
         craftingPanel.SetActive(isOpen);
     }
+    public void CloseCraftingUI()
+    {
+        isOpen = false;
+        IsCraftingOpen = false;
+        craftingPanel.SetActive(false);
+    }
 
     void Update()
     {
