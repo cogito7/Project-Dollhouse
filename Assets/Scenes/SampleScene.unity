@@ -312,6 +312,9 @@ MonoBehaviour:
   cameras:
   - {fileID: 330585543}
   - {fileID: 914450187}
+  players:
+  - {fileID: 506377797}
+  - {fileID: 1549608332}
 --- !u!4 &245745751
 Transform:
   m_ObjectHideFlags: 0
@@ -493,8 +496,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 330585543}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.64199996, z: -10}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 3.8952587, y: 0.64199996, z: -10}
   m_LocalScale: {x: 0.55806, y: 0.55806, z: 0.55806}
   m_ConstrainProportionsScale: 0
   m_Children: []
