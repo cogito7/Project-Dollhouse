@@ -6,6 +6,7 @@ public class CameraSwitcher : MonoBehaviour
     public GameObject[] cameras; // stores 2 cameras
     public GameObject[] players; //stores 2 players
     private int currentCameraIndex = 0; // Tracks the current camera
+    public DollhouseInteraction dollhouseInteraction; // assign this in Inspector
     void Start()
     {
         // Make sure to deactivate all cameras initially
@@ -39,5 +40,6 @@ public class CameraSwitcher : MonoBehaviour
             cameras[i].SetActive(i == cameraIndex);
             players[i].SetActive(i == cameraIndex);
         }
+
     }
 }

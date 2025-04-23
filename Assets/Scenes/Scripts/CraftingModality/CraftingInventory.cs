@@ -24,9 +24,9 @@ public class CraftingInventory : MonoBehaviour
 
     private void Start()
     {
-       
+
         //initialize inventory slots
-        foreach (Image slot in inventorySlots) 
+        foreach (Image slot in inventorySlots)
         {
             slot.sprite = defaultSprite;
             slot.enabled = true;
