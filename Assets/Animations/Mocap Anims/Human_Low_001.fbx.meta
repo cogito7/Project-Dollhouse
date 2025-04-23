@@ -1,0 +1,1129 @@
+fileFormatVersion: 2
+guid: e2cff758bcf0d0e4eb5ebaacef450587
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: "\nClip 'Human_Low_001' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'Melanie_Spine' has translation animation
+      that will be discarded.\n\t'Melanie_Spine1' has translation animation that
+      will be discarded.\n\t'Melanie_Neck' has translation animation that will be
+      discarded.\n\t'Melanie_Head' has translation animation that will be discarded.\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Human_Low_001
+      takeName: Human_Low_001
+      internalID: 4441034081326966943
+      firstFrame: 0
+      lastFrame: 1174
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: Melanie_Hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Melanie_LeftUpLeg
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Melanie_RightUpLeg
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Melanie_LeftLeg
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Melanie_RightLeg
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Melanie_LeftFoot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Melanie_RightFoot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Melanie_Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Melanie_Spine1
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Melanie_Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Melanie_Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Melanie_LeftShoulder
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Melanie_RightShoulder
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Melanie_LeftArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Melanie_RightArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Melanie_LeftForeArm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Melanie_RightForeArm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Melanie_LeftHand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Melanie_RightHand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Melanie_LeftToeBase
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Melanie_RightToeBase
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Melanie_LeftHandThumb1
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Melanie_LeftHandThumb2
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Melanie_LeftHandThumb3
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Melanie_LeftHandIndex1
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Melanie_LeftHandIndex2
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Melanie_LeftHandIndex3
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Melanie_LeftHandMiddle1
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Melanie_LeftHandMiddle2
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Melanie_LeftHandMiddle3
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Melanie_LeftHandRing1
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Melanie_LeftHandRing2
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Melanie_LeftHandRing3
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Melanie_LeftHandPinky1
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Melanie_LeftHandPinky2
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Melanie_LeftHandPinky3
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Melanie_RightHandThumb1
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Melanie_RightHandThumb2
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Melanie_RightHandThumb3
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Melanie_RightHandIndex1
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Melanie_RightHandIndex2
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Melanie_RightHandIndex3
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Melanie_RightHandMiddle1
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Melanie_RightHandMiddle2
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Melanie_RightHandMiddle3
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Melanie_RightHandRing1
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Melanie_RightHandRing2
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Melanie_RightHandRing3
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Melanie_RightHandPinky1
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Melanie_RightHandPinky2
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Melanie_RightHandPinky3
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Human_Low_001(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:optical
+      parentName: Human_Low_001(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:Melanie_RKneeOut
+      parentName: C3D:optical
+      position: {x: -0.03524, y: 0.46817002, z: 0.81314003}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:Melanie_RToeOut
+      parentName: C3D:optical
+      position: {x: -0.00653, y: 0.05124, z: 0.82216}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:Melanie_RToeTip
+      parentName: C3D:optical
+      position: {x: -0.052470002, y: 0.05875, z: 0.89105004}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:Melanie_RShin
+      parentName: C3D:optical
+      position: {x: -0.08838999, y: 0.30876, z: 0.81926}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:Melanie_LToeTip
+      parentName: C3D:optical
+      position: {x: -0.36689997, y: 0.059869997, z: 0.90582}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:Melanie_LShin
+      parentName: C3D:optical
+      position: {x: -0.34508, y: 0.18889, z: 0.79976}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:Melanie_RShoulderTop
+      parentName: C3D:optical
+      position: {x: -0.07944, y: 1.3067999, z: 0.73991996}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:Melanie_LKneeOut
+      parentName: C3D:optical
+      position: {x: -0.38960996, y: 0.42953, z: 0.80783}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:Melanie_LFArm
+      parentName: C3D:optical
+      position: {x: -0.71535003, y: 1.25884, z: 0.90883}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:Melanie_LToeIn
+      parentName: C3D:optical
+      position: {x: -0.30075, y: 0.045689996, z: 0.82534}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:Melanie_RUArmHigh
+      parentName: C3D:optical
+      position: {x: 0.11361, y: 1.19265, z: 0.76109}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:Melanie_RShoulderBack
+      parentName: C3D:optical
+      position: {x: -0.02073, y: 1.2109699, z: 0.69347}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:Melanie_BackLeft
+      parentName: C3D:optical
+      position: {x: -0.31679, y: 1.1251999, z: 0.67913}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:Melanie_LShoulderBack
+      parentName: C3D:optical
+      position: {x: -0.37812, y: 1.21663, z: 0.68481004}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:Melanie_RAnkleOut
+      parentName: C3D:optical
+      position: {x: -0.051329996, y: 0.12567, z: 0.69905996}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:Melanie_BackRight
+      parentName: C3D:optical
+      position: {x: -0.11111, y: 1.11919, z: 0.68175}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:Melanie_LUArmHigh
+      parentName: C3D:optical
+      position: {x: -0.50078, y: 1.1811, z: 0.74790996}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:Melanie_LHeel
+      parentName: C3D:optical
+      position: {x: -0.32847998, y: 0.05697, z: 0.67147005}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:Melanie_LAnkleOut
+      parentName: C3D:optical
+      position: {x: -0.38959998, y: 0.10257, z: 0.72240996}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:Melanie_RHeel
+      parentName: C3D:optical
+      position: {x: -0.10321, y: 0.07072, z: 0.67196}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:Melanie_LToeOut
+      parentName: C3D:optical
+      position: {x: -0.41064999, y: 0.048609998, z: 0.80842}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:Melanie_WaistLBack
+      parentName: C3D:optical
+      position: {x: -0.34957, y: 0.9578, z: 0.72556996}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:Melanie_WaistRBack
+      parentName: C3D:optical
+      position: {x: -0.094960004, y: 0.95192, z: 0.71708995}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:Melanie_LWristOut
+      parentName: C3D:optical
+      position: {x: -0.80546993, y: 1.23214, z: 0.85494}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:Melanie_BackTop
+      parentName: C3D:optical
+      position: {x: -0.2045, y: 1.24623, z: 0.64561}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:Melanie_LShoulderTop
+      parentName: C3D:optical
+      position: {x: -0.32702997, y: 1.30613, z: 0.75869}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:Melanie_HeadSide
+      parentName: C3D:optical
+      position: {x: -0.13288, y: 1.40895, z: 0.71271}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:Melanie_RElbowOut
+      parentName: C3D:optical
+      position: {x: 0.21965998, y: 1.2344999, z: 0.80305}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:Melanie_RFArm
+      parentName: C3D:optical
+      position: {x: 0.28939, y: 1.26621, z: 0.90692997}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:Melanie_RPinky
+      parentName: C3D:optical
+      position: {x: 0.48613998, y: 1.21257, z: 0.89071995}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:Melanie_HeadTop
+      parentName: C3D:optical
+      position: {x: -0.18415001, y: 1.5417999, z: 0.69978994}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:Melanie_LHandOut
+      parentName: C3D:optical
+      position: {x: -0.85852, y: 1.2338899, z: 0.8585299}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:Melanie_HeadFront
+      parentName: C3D:optical
+      position: {x: -0.16677, y: 1.5355499, z: 0.83361995}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:Melanie_LElbowOut
+      parentName: C3D:optical
+      position: {x: -0.61747, y: 1.24848, z: 0.79166}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:Melanie_RToeIn
+      parentName: C3D:optical
+      position: {x: -0.11695, y: 0.038879998, z: 0.82422996}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:Melanie_Chest
+      parentName: C3D:optical
+      position: {x: -0.19575, y: 1.2193699, z: 0.91939}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:Melanie_RHandOut
+      parentName: C3D:optical
+      position: {x: 0.42387, y: 1.22099, z: 0.88293}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:Melanie_RWristOut
+      parentName: C3D:optical
+      position: {x: 0.37179, y: 1.20238, z: 0.87415}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:Melanie_RThigh
+      parentName: C3D:optical
+      position: {x: -0.05498, y: 0.71225995, z: 0.88538}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:Melanie_LThigh
+      parentName: C3D:optical
+      position: {x: -0.33968, y: 0.64353997, z: 0.90831}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:Melanie_RIndex
+      parentName: C3D:optical
+      position: {x: 0.49179, y: 1.22746, z: 0.97945994}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:Melanie_RHandIn
+      parentName: C3D:optical
+      position: {x: 0.43285, y: 1.24479, z: 0.9747}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:Melanie_WaistRFront
+      parentName: C3D:optical
+      position: {x: -0.078109995, y: 0.9336, z: 0.92800003}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:Melanie_RThumb
+      parentName: C3D:optical
+      position: {x: 0.37894002, y: 1.20509, z: 0.97695}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:Melanie_LPinky
+      parentName: C3D:optical
+      position: {x: -0.90841, y: 1.24516, z: 0.85238}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:Melanie_LHandIn
+      parentName: C3D:optical
+      position: {x: -0.91653997, y: 1.2544899, z: 0.93240994}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:Melanie_LIndex
+      parentName: C3D:optical
+      position: {x: -0.88044, y: 1.24579, z: 0.95347995}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:Melanie_LThumb
+      parentName: C3D:optical
+      position: {x: -0.8457599, y: 1.2096399, z: 0.96974}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:Melanie_WaistLFront
+      parentName: C3D:optical
+      position: {x: -0.3455, y: 0.94099, z: 0.92122}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Melanie_Root
+      parentName: Human_Low_001(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Melanie_Hips
+      parentName: Melanie_Root
+      position: {x: 0, y: 0.86059994, z: 0}
+      rotation: {x: 0.0056410274, y: 0.006293246, z: -0.0075400155, w: 0.99993587}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Melanie_Spine
+      parentName: Melanie_Hips
+      position: {x: -0, y: 0.06692, z: 0}
+      rotation: {x: -0.037882794, y: 0.0016557998, z: 0.00055181264, w: 0.9992807}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Melanie_Spine1
+      parentName: Melanie_Spine
+      position: {x: -0, y: 0.16254999, z: 0}
+      rotation: {x: -0.088633016, y: 0.0016305058, z: -0.00010898386, w: 0.99606305}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Melanie_Neck
+      parentName: Melanie_Spine1
+      position: {x: -0, y: 0.18259001, z: 0}
+      rotation: {x: -0.014761999, y: 0.062808596, z: -0.033544816, w: 0.9973525}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Melanie_Head
+      parentName: Melanie_Neck
+      position: {x: -0, y: 0.13114999, z: 0.01668}
+      rotation: {x: 0.048903815, y: 0.063622296, z: -0.003069351, w: 0.9967704}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Melanie_HeadEnd
+      parentName: Melanie_Head
+      position: {x: -0, y: 0.16676, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Melanie_LeftShoulder
+      parentName: Melanie_Spine1
+      position: {x: -0.03331, y: 0.11022, z: -0.0128}
+      rotation: {x: 0.002378886, y: -0.033625618, z: -0.07059382, w: 0.99693537}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Melanie_LeftArm
+      parentName: Melanie_LeftShoulder
+      position: {x: -0.15034, y: 0, z: 0}
+      rotation: {x: 0.023484249, y: 0.07123382, z: 0.07990207, w: 0.9939768}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Melanie_LeftForeArm
+      parentName: Melanie_LeftArm
+      position: {x: -0.23777, y: 0, z: 0}
+      rotation: {x: -0.0129431635, y: 0.004949495, z: -0.00014677353, w: 0.999904}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Melanie_LeftHand
+      parentName: Melanie_LeftForeArm
+      position: {x: -0.18497999, y: 0, z: 0}
+      rotation: {x: -0.0000088692805, y: -0.12909816, z: -0.07463508, w: 0.9888192}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Melanie_LeftHandThumb1
+      parentName: Melanie_LeftHand
+      position: {x: -0.02183, y: -0.02481, z: 0.03473}
+      rotation: {x: 0.31263033, y: 0.48138773, z: -0.13891704, w: 0.80698836}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Melanie_LeftHandThumb2
+      parentName: Melanie_LeftHandThumb1
+      position: {x: -0.02632, y: 0, z: 0}
+      rotation: {x: -0.03617275, y: -0.0110496245, z: 0.019733094, w: 0.9990896}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Melanie_LeftHandThumb3
+      parentName: Melanie_LeftHandThumb2
+      position: {x: -0.022499999, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Melanie_LThumb3End
+      parentName: Melanie_LeftHandThumb3
+      position: {x: -0.01876, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Melanie_LeftHandIndex1
+      parentName: Melanie_LeftHand
+      position: {x: -0.08931, y: 0, z: 0.03473}
+      rotation: {x: -0.20485961, y: 0.07098777, z: 0.06392885, w: 0.9741183}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Melanie_LeftHandIndex2
+      parentName: Melanie_LeftHandIndex1
+      position: {x: -0.03961, y: 0, z: 0}
+      rotation: {x: 0.00000019371505, y: 0.0000003874301, z: 0.03350739, w: 0.9994385}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Melanie_LeftHandIndex3
+      parentName: Melanie_LeftHandIndex2
+      position: {x: -0.0198, y: 0, z: 0}
+      rotation: {x: -0.0000002240771, y: -0.000003631155, z: 0.03350953, w: 0.99943846}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Melanie_LIndex3End
+      parentName: Melanie_LeftHandIndex3
+      position: {x: -0.01651, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Melanie_LeftHandMiddle1
+      parentName: Melanie_LeftHand
+      position: {x: -0.08931, y: 0, z: 0.01151}
+      rotation: {x: 0.016682196, y: 0.06962087, z: 0.06867448, w: 0.9950671}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Melanie_LeftHandMiddle2
+      parentName: Melanie_LeftHandMiddle1
+      position: {x: -0.043569997, y: 0, z: 0}
+      rotation: {x: -0.000000020489097, y: -0.00000022351742, z: 0.033506043, w: 0.9994386}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Melanie_LeftHandMiddle3
+      parentName: Melanie_LeftHandMiddle2
+      position: {x: -0.023759998, y: 0, z: 0}
+      rotation: {x: 0.00000008175398, y: -0.00000017501297, z: 0.033508975, w: 0.99943846}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Melanie_LMiddle3End
+      parentName: Melanie_LeftHandMiddle3
+      position: {x: -0.019809999, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Melanie_LeftHandRing1
+      parentName: Melanie_LeftHand
+      position: {x: -0.084350005, y: 0, z: -0.01151}
+      rotation: {x: -0.08329572, y: 0.03899017, z: 0.08154582, w: 0.99241716}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Melanie_LeftHandRing2
+      parentName: Melanie_LeftHandRing1
+      position: {x: -0.03961, y: 0, z: 0}
+      rotation: {x: -0, y: -0.00000017136335, z: 0.033504527, w: 0.9994386}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Melanie_LeftHandRing3
+      parentName: Melanie_LeftHandRing2
+      position: {x: -0.0198, y: 0, z: 0}
+      rotation: {x: 0.000000054733114, y: -0.0000020967198, z: 0.033512, w: 0.99943835}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Melanie_LRing3End
+      parentName: Melanie_LeftHandRing3
+      position: {x: -0.01651, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Melanie_LeftHandPinky1
+      parentName: Melanie_LeftHand
+      position: {x: -0.07939, y: 0, z: -0.03473}
+      rotation: {x: -0.16120142, y: -0.012697233, z: -0.008142189, w: 0.98680633}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Melanie_LeftHandPinky2
+      parentName: Melanie_LeftHandPinky1
+      position: {x: -0.031689998, y: 0, z: 0}
+      rotation: {x: -0.00000008940696, y: 0.0000013848766, z: 0.03350622, w: 0.9994385}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Melanie_LeftHandPinky3
+      parentName: Melanie_LeftHandPinky2
+      position: {x: -0.01584, y: 0, z: 0}
+      rotation: {x: 0.00000020263822, y: -0.0000032425166, z: 0.033510976, w: 0.9994384}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Melanie_LPinky3End
+      parentName: Melanie_LeftHandPinky3
+      position: {x: -0.01321, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Melanie_RightShoulder
+      parentName: Melanie_Spine1
+      position: {x: 0.03331, y: 0.11022, z: -0.0128}
+      rotation: {x: 0.0037406574, y: 0.04367258, z: 0.08534308, w: 0.995387}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Melanie_RightArm
+      parentName: Melanie_RightShoulder
+      position: {x: 0.15034, y: 0, z: 0}
+      rotation: {x: 0.033838015, y: -0.08066206, z: -0.08302996, w: 0.99270076}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Melanie_RightForeArm
+      parentName: Melanie_RightArm
+      position: {x: 0.23777, y: 0, z: 0}
+      rotation: {x: 0.035994243, y: -0.00575885, z: 0.0031927903, w: 0.99933034}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Melanie_RightHand
+      parentName: Melanie_RightForeArm
+      position: {x: 0.18497999, y: 0, z: 0}
+      rotation: {x: -0.058804326, y: 0.10458698, z: 0.08421635, w: 0.9891973}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Melanie_RightHandThumb1
+      parentName: Melanie_RightHand
+      position: {x: 0.02183, y: -0.02481, z: 0.03473}
+      rotation: {x: 0.38519594, y: -0.46175587, z: 0.046859, w: 0.7976277}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Melanie_RightHandThumb2
+      parentName: Melanie_RightHandThumb1
+      position: {x: 0.02632, y: 0, z: 0}
+      rotation: {x: 0.050999157, y: 0.0327074, z: 0.0068957903, w: 0.99813914}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Melanie_RightHandThumb3
+      parentName: Melanie_RightHandThumb2
+      position: {x: 0.022499999, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Melanie_RThumb3End
+      parentName: Melanie_RightHandThumb3
+      position: {x: 0.01876, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Melanie_RightHandIndex1
+      parentName: Melanie_RightHand
+      position: {x: 0.08931, y: 0, z: 0.03473}
+      rotation: {x: 0.12475023, y: -0.059978496, z: -0.06683867, w: 0.9881157}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Melanie_RightHandIndex2
+      parentName: Melanie_RightHandIndex1
+      position: {x: 0.03961, y: 0, z: 0}
+      rotation: {x: -0.00000003725288, y: 0.00000020116556, z: -0.033504557, w: 0.99943864}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Melanie_RightHandIndex3
+      parentName: Melanie_RightHandIndex2
+      position: {x: 0.0198, y: 0, z: 0}
+      rotation: {x: 0.00000006329598, y: -0.0000021323053, z: -0.03350759, w: 0.99943846}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Melanie_RIndex3End
+      parentName: Melanie_RightHandIndex3
+      position: {x: 0.01651, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Melanie_RightHandMiddle1
+      parentName: Melanie_RightHand
+      position: {x: 0.08931, y: 0, z: 0.01151}
+      rotation: {x: 0.06343057, y: -0.045018855, z: -0.06912962, w: 0.9945708}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Melanie_RightHandMiddle2
+      parentName: Melanie_RightHandMiddle1
+      position: {x: 0.043569997, y: 0, z: 0}
+      rotation: {x: -0.000000022351726, y: 0.00000071152994, z: -0.033505626, w: 0.9994386}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Melanie_RightHandMiddle3
+      parentName: Melanie_RightHandMiddle2
+      position: {x: 0.023759998, y: 0, z: 0}
+      rotation: {x: 0.000000015670956, y: -0.0000010904479, z: -0.03350811, w: 0.99943846}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Melanie_RMiddle3End
+      parentName: Melanie_RightHandMiddle3
+      position: {x: 0.019809999, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Melanie_RightHandRing1
+      parentName: Melanie_RightHand
+      position: {x: 0.084350005, y: 0, z: -0.01151}
+      rotation: {x: -0.08500017, y: -0.044108555, z: -0.079203025, w: 0.9922481}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Melanie_RightHandRing2
+      parentName: Melanie_RightHandRing1
+      position: {x: 0.03961, y: 0, z: 0}
+      rotation: {x: -0, y: -0.00000021606674, z: -0.03350565, w: 0.9994386}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Melanie_RightHandRing3
+      parentName: Melanie_RightHandRing2
+      position: {x: 0.0198, y: 0, z: 0}
+      rotation: {x: -0.00000016231432, y: -0.00000026647962, z: -0.033503782, w: 0.99943864}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Melanie_RRing3End
+      parentName: Melanie_RightHandRing3
+      position: {x: 0.01651, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Melanie_RightHandPinky1
+      parentName: Melanie_RightHand
+      position: {x: 0.07939, y: 0, z: -0.03473}
+      rotation: {x: -0.15562697, y: -0.038344655, z: -0.082110934, w: 0.9836502}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Melanie_RightHandPinky2
+      parentName: Melanie_RightHandPinky1
+      position: {x: 0.031689998, y: 0, z: 0}
+      rotation: {x: -0.00000014901154, y: 0.0000004246829, z: -0.0335056, w: 0.9994386}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Melanie_RightHandPinky3
+      parentName: Melanie_RightHandPinky2
+      position: {x: 0.01584, y: 0, z: 0}
+      rotation: {x: -0.0000000021306608, y: -0.00000084840684, z: -0.033510476, w: 0.99943835}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Melanie_RPinky3End
+      parentName: Melanie_RightHandPinky3
+      position: {x: 0.01321, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Melanie_LeftUpLeg
+      parentName: Melanie_Hips
+      position: {x: -0.08338, y: 0, z: 0}
+      rotation: {x: -0.012258966, y: -0.009801307, z: -0.02801348, w: 0.99948436}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Melanie_LeftLeg
+      parentName: Melanie_LeftUpLeg
+      position: {x: -0, y: -0.4099, z: 0}
+      rotation: {x: 0.1504499, y: -0, z: -0, w: 0.98861766}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Melanie_LeftFoot
+      parentName: Melanie_LeftLeg
+      position: {x: -0, y: -0.35557, z: 0}
+      rotation: {x: -0.13805637, y: -0.010527035, z: 0.02681879, w: 0.99000525}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Melanie_LeftToeBase
+      parentName: Melanie_LeftFoot
+      position: {x: -0, y: -0.0542, z: 0.12506999}
+      rotation: {x: -0.0031939473, y: 0, z: -0, w: 0.99999493}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Melanie_LToeEnd
+      parentName: Melanie_LeftToeBase
+      position: {x: -0, y: 0, z: 0.03335}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Melanie_RightUpLeg
+      parentName: Melanie_Hips
+      position: {x: 0.08338, y: 0, z: 0}
+      rotation: {x: -0.026511682, y: 0.021192348, z: 0.04426066, w: 0.9984433}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Melanie_RightLeg
+      parentName: Melanie_RightUpLeg
+      position: {x: -0, y: -0.4099, z: 0}
+      rotation: {x: 0.20810802, y: -0, z: -0, w: 0.97810584}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Melanie_RightFoot
+      parentName: Melanie_RightLeg
+      position: {x: -0, y: -0.35557, z: 0}
+      rotation: {x: -0.19089493, y: 0.06017771, z: -0.06558977, w: 0.97756624}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Melanie_RightToeBase
+      parentName: Melanie_RightFoot
+      position: {x: -0, y: -0.0542, z: 0.12506999}
+      rotation: {x: 0.0027576168, y: -0, z: -0, w: 0.9999962}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Melanie_RToeEnd
+      parentName: Melanie_RightToeBase
+      position: {x: -0, y: 0, z: 0.03335}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
