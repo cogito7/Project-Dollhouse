@@ -1,0 +1,1123 @@
+fileFormatVersion: 2
+guid: 1f1243eb390fe9f449ba45d8a008cc23
+ModelImporter:
+  serializedVersion: 22200
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: "\nClip 'Doll_Low_001' has import animation warnings
+      that might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'Jaden_Spine' has translation animation
+      that will be discarded.\n\t'Jaden_Spine1' has translation animation that will
+      be discarded.\n\t'Jaden_Spine1' is inbetween humanoid transforms and has rotation
+      animation that will be discarded.\n\t'Jaden_Neck' has translation animation
+      that will be discarded.\n\t'Jaden_Head' has translation animation that will
+      be discarded.\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Doll_Low_001
+      takeName: Doll_Low_001
+      internalID: -5019482453602646000
+      firstFrame: 0
+      lastFrame: 992
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: Jaden_Hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Jaden_LeftUpLeg
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Jaden_RightUpLeg
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Jaden_LeftLeg
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Jaden_RightLeg
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Jaden_LeftFoot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Jaden_RightFoot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Jaden_Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Jaden_Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Jaden_Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Jaden_LeftShoulder
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Jaden_RightShoulder
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Jaden_LeftArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Jaden_RightArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Jaden_LeftForeArm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Jaden_RightForeArm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Jaden_LeftHand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Jaden_RightHand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Jaden_LeftToeBase
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Jaden_RightToeBase
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Jaden_LeftHandThumb1
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Jaden_LeftHandThumb2
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Jaden_LeftHandThumb3
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Jaden_LeftHandIndex1
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Jaden_LeftHandIndex2
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Jaden_LeftHandIndex3
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Jaden_LeftHandMiddle1
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Jaden_LeftHandMiddle2
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Jaden_LeftHandMiddle3
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Jaden_LeftHandRing1
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Jaden_LeftHandRing2
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Jaden_LeftHandRing3
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Jaden_LeftHandPinky1
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Jaden_LeftHandPinky2
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Jaden_LeftHandPinky3
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Jaden_RightHandThumb1
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Jaden_RightHandThumb2
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Jaden_RightHandThumb3
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Jaden_RightHandIndex1
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Jaden_RightHandIndex2
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Jaden_RightHandIndex3
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Jaden_RightHandMiddle1
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Jaden_RightHandMiddle2
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Jaden_RightHandMiddle3
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Jaden_RightHandRing1
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Jaden_RightHandRing2
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Jaden_RightHandRing3
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Jaden_RightHandPinky1
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Jaden_RightHandPinky2
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Jaden_RightHandPinky3
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Doll_Low_001(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:optical
+      parentName: Doll_Low_001(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:Jaden_LKneeOut
+      parentName: C3D:optical
+      position: {x: -0.37293, y: 0.49516997, z: 0.84427}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:Jaden_LFArm
+      parentName: C3D:optical
+      position: {x: -0.76258004, y: 1.32168, z: 0.86394995}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:Jaden_HeadFront
+      parentName: C3D:optical
+      position: {x: -0.24445999, y: 1.62558, z: 0.91280997}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:Jaden_LToeTip
+      parentName: C3D:optical
+      position: {x: -0.29121, y: 0.07138, z: 0.97145}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:Jaden_RToeTip
+      parentName: C3D:optical
+      position: {x: -0.18013999, y: 0.07302, z: 0.9698}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:Jaden_LToeOut
+      parentName: C3D:optical
+      position: {x: -0.34585997, y: 0.05573, z: 0.87827003}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:Jaden_LThigh
+      parentName: C3D:optical
+      position: {x: -0.36152, y: 0.71435, z: 0.9311699}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:Jaden_LShin
+      parentName: C3D:optical
+      position: {x: -0.30514, y: 0.26507, z: 0.84765}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:Jaden_LWristOut
+      parentName: C3D:optical
+      position: {x: -0.83747, y: 1.31082, z: 0.77535003}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:Jaden_RKneeOut
+      parentName: C3D:optical
+      position: {x: -0.09422, y: 0.50248, z: 0.88268995}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:Jaden_LElbowOut
+      parentName: C3D:optical
+      position: {x: -0.63291997, y: 1.35393, z: 0.7826}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:Jaden_RShin
+      parentName: C3D:optical
+      position: {x: -0.17794, y: 0.34796, z: 0.86496}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:Jaden_HeadTop
+      parentName: C3D:optical
+      position: {x: -0.20625, y: 1.65448, z: 0.78892994}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:Jaden_LAnkleOut
+      parentName: C3D:optical
+      position: {x: -0.33209997, y: 0.18076, z: 0.75672996}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:Jaden_RElbowOut
+      parentName: C3D:optical
+      position: {x: 0.18916, y: 1.31011, z: 0.85264}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:Jaden_RFArm
+      parentName: C3D:optical
+      position: {x: 0.27826998, y: 1.33147, z: 0.94228995}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:Jaden_RToeOut
+      parentName: C3D:optical
+      position: {x: -0.11436, y: 0.0583, z: 0.91888}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:Jaden_RHeel
+      parentName: C3D:optical
+      position: {x: -0.18566999, y: 0.08943, z: 0.71128994}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:Jaden_RUArmHigh
+      parentName: C3D:optical
+      position: {x: 0.08713, y: 1.2732599, z: 0.81973}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:Jaden_RShoulderBack
+      parentName: C3D:optical
+      position: {x: -0.038709998, y: 1.3071, z: 0.76041996}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:Jaden_LShoulderBack
+      parentName: C3D:optical
+      position: {x: -0.38695, y: 1.33004, z: 0.71138996}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:Jaden_BackRight
+      parentName: C3D:optical
+      position: {x: -0.11895999, y: 1.20653, z: 0.73191}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:Jaden_BackLeft
+      parentName: C3D:optical
+      position: {x: -0.32229, y: 1.22911, z: 0.71121}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:Jaden_LUArmHigh
+      parentName: C3D:optical
+      position: {x: -0.5128, y: 1.2903999, z: 0.75217}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:Jaden_HeadSide
+      parentName: C3D:optical
+      position: {x: -0.13621, y: 1.5316701, z: 0.81390995}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:Jaden_WaistLBack
+      parentName: C3D:optical
+      position: {x: -0.34168997, y: 1.0336, z: 0.7546399}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:Jaden_RAnkleOut
+      parentName: C3D:optical
+      position: {x: -0.12312, y: 0.15937999, z: 0.77342004}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:Jaden_BackTop
+      parentName: C3D:optical
+      position: {x: -0.20919, y: 1.3279201, z: 0.69408995}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:Jaden_Chest
+      parentName: C3D:optical
+      position: {x: -0.22569999, y: 1.2948899, z: 0.92042}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:Jaden_RHandOut
+      parentName: C3D:optical
+      position: {x: 0.41577, y: 1.28834, z: 0.89578}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:Jaden_RPinky
+      parentName: C3D:optical
+      position: {x: 0.47578996, y: 1.25997, z: 0.8957499}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:Jaden_RWristOut
+      parentName: C3D:optical
+      position: {x: 0.34984002, y: 1.27319, z: 0.88574994}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:Jaden_LHandOut
+      parentName: C3D:optical
+      position: {x: -0.88584, y: 1.2967199, z: 0.76724994}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:Jaden_LHeel
+      parentName: C3D:optical
+      position: {x: -0.26745, y: 0.06043, z: 0.68983}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:Jaden_LIndex
+      parentName: C3D:optical
+      position: {x: -0.97071, y: 1.3073599, z: 0.82855004}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:Jaden_RThigh
+      parentName: C3D:optical
+      position: {x: -0.110419996, y: 0.74144995, z: 0.95851}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:Jaden_LPinky
+      parentName: C3D:optical
+      position: {x: -0.94393, y: 1.2911, z: 0.75499}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:Jaden_RHandIn
+      parentName: C3D:optical
+      position: {x: 0.42668998, y: 1.30406, z: 0.98953}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:Jaden_LToeIn
+      parentName: C3D:optical
+      position: {x: -0.23070998, y: 0.05065, z: 0.88802}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:Jaden_LShoulderTop
+      parentName: C3D:optical
+      position: {x: -0.34133, y: 1.41419, z: 0.78563005}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:Jaden_RIndex
+      parentName: C3D:optical
+      position: {x: 0.48727998, y: 1.28911, z: 0.99320996}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:Jaden_RShoulderTop
+      parentName: C3D:optical
+      position: {x: -0.09222999, y: 1.41219, z: 0.79375}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:Jaden_RThumb
+      parentName: C3D:optical
+      position: {x: 0.3796, y: 1.26016, z: 0.98947996}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:Jaden_WaistRFront
+      parentName: C3D:optical
+      position: {x: -0.12852, y: 1.00882, z: 0.98739994}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:Jaden_WaistLFront
+      parentName: C3D:optical
+      position: {x: -0.38195, y: 1.03367, z: 0.94414}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:Jaden_WaistRBack
+      parentName: C3D:optical
+      position: {x: -0.07284, y: 1.0058, z: 0.79699993}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:Jaden_LHandIn
+      parentName: C3D:optical
+      position: {x: -0.93103, y: 1.31079, z: 0.85523003}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:Jaden_LThumb
+      parentName: C3D:optical
+      position: {x: -0.89843, y: 1.27888, z: 0.87706}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: C3D:Jaden_RToeIn
+      parentName: C3D:optical
+      position: {x: -0.23152, y: 0.03979, z: 0.89473}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jaden_Root
+      parentName: Doll_Low_001(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jaden_Hips
+      parentName: Jaden_Root
+      position: {x: 0, y: 0.83678263, z: 0}
+      rotation: {x: -0.026406886, y: -0.08866838, z: -0.0041285665, w: 0.99570256}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jaden_Spine
+      parentName: Jaden_Hips
+      position: {x: -0, y: 0.07493, z: 0}
+      rotation: {x: -0.028283032, y: 0.013863785, z: 0.0033684107, w: 0.9994981}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jaden_Spine1
+      parentName: Jaden_Spine
+      position: {x: -0, y: 0.17165, z: 0}
+      rotation: {x: -0.056211483, y: 0.013461062, z: -0.005603429, w: 0.9983124}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jaden_Neck
+      parentName: Jaden_Spine1
+      position: {x: -0, y: 0.18683, z: 0}
+      rotation: {x: 0.039978027, y: -0.006019577, z: -0.047250856, w: 0.9980646}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jaden_Head
+      parentName: Jaden_Neck
+      position: {x: -0, y: 0.13732, z: 0.01781}
+      rotation: {x: 0.07521233, y: -0.01106315, z: 0.041514963, w: 0.99624157}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jaden_HeadEnd
+      parentName: Jaden_Head
+      position: {x: -0, y: 0.17812999, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jaden_LeftShoulder
+      parentName: Jaden_Spine1
+      position: {x: -0.03535, y: 0.11628, z: -0.013099999}
+      rotation: {x: 0.004771, y: -0.043169055, z: -0.10979334, w: 0.9930051}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jaden_LeftArm
+      parentName: Jaden_LeftShoulder
+      position: {x: -0.14416, y: 0, z: 0}
+      rotation: {x: 0.11660173, y: 0.087436534, z: 0.114864856, w: 0.9826317}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jaden_LeftForeArm
+      parentName: Jaden_LeftArm
+      position: {x: -0.24879, y: 0, z: 0}
+      rotation: {x: -0.109121956, y: -0.034526125, z: -0.0037925076, w: 0.9934214}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jaden_LeftHand
+      parentName: Jaden_LeftForeArm
+      position: {x: -0.17805, y: 0, z: 0}
+      rotation: {x: 0.026575532, y: -0.12944612, z: 0.002007031, w: 0.9912282}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jaden_LeftHandThumb1
+      parentName: Jaden_LeftHand
+      position: {x: -0.020480001, y: -0.023269998, z: 0.03258}
+      rotation: {x: 0.34983158, y: 0.3307546, z: -0.15776, w: 0.86216646}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jaden_LeftHandThumb2
+      parentName: Jaden_LeftHandThumb1
+      position: {x: -0.028110001, y: 0, z: 0}
+      rotation: {x: -0.00025898212, y: -0.020306015, z: 0.020423027, w: 0.99958515}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jaden_LeftHandThumb3
+      parentName: Jaden_LeftHandThumb2
+      position: {x: -0.02403, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jaden_LThumb3End
+      parentName: Jaden_LeftHandThumb3
+      position: {x: -0.0214, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jaden_LeftHandIndex1
+      parentName: Jaden_LeftHand
+      position: {x: -0.08378, y: 0, z: 0.03258}
+      rotation: {x: 0.15640832, y: 0.0062801167, z: -0.029763205, w: 0.987224}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jaden_LeftHandIndex2
+      parentName: Jaden_LeftHandIndex1
+      position: {x: -0.04231, y: 0, z: 0}
+      rotation: {x: -0.000000014901159, y: -0.00000041211018, z: 0.033628613, w: 0.9994344}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jaden_LeftHandIndex3
+      parentName: Jaden_LeftHandIndex2
+      position: {x: -0.02115, y: 0, z: 0}
+      rotation: {x: -0.000000044042533, y: 0.0000004946273, z: 0.03363902, w: 0.99943405}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jaden_LIndex3End
+      parentName: Jaden_LeftHandIndex3
+      position: {x: -0.018839998, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jaden_LeftHandMiddle1
+      parentName: Jaden_LeftHand
+      position: {x: -0.08378, y: 0, z: 0.0108}
+      rotation: {x: 0.078379504, y: 0.011101456, z: 0.0069251787, w: 0.99683774}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jaden_LeftHandMiddle2
+      parentName: Jaden_LeftHandMiddle1
+      position: {x: -0.046539996, y: 0, z: 0}
+      rotation: {x: -0.00000011175868, y: -0.0000012582165, z: 0.033632506, w: 0.99943435}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jaden_LeftHandMiddle3
+      parentName: Jaden_LeftHandMiddle2
+      position: {x: -0.02538, y: 0, z: 0}
+      rotation: {x: -0.000000098396306, y: 0.0000018010353, z: 0.033630874, w: 0.99943435}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jaden_LMiddle3End
+      parentName: Jaden_LeftHandMiddle3
+      position: {x: -0.02261, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jaden_LeftHandRing1
+      parentName: Jaden_LeftHand
+      position: {x: -0.07913, y: 0, z: -0.0108}
+      rotation: {x: -0.07882948, y: 0.018495753, z: 0.022851737, w: 0.99645454}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jaden_LeftHandRing2
+      parentName: Jaden_LeftHandRing1
+      position: {x: -0.04231, y: 0, z: 0}
+      rotation: {x: -0.00000017881395, y: -0.0000023134055, z: 0.033636305, w: 0.9994342}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jaden_LeftHandRing3
+      parentName: Jaden_LeftHandRing2
+      position: {x: -0.02115, y: 0, z: 0}
+      rotation: {x: -0.00000015020967, y: 0.0000020869365, z: 0.03363126, w: 0.9994343}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jaden_LRing3End
+      parentName: Jaden_LeftHandRing3
+      position: {x: -0.018839998, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jaden_LeftHandPinky1
+      parentName: Jaden_LeftHand
+      position: {x: -0.07447, y: 0, z: -0.03258}
+      rotation: {x: -0.15716359, y: 0.02803956, z: 0.038512472, w: 0.98642296}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jaden_LeftHandPinky2
+      parentName: Jaden_LeftHandPinky1
+      position: {x: -0.03384, y: 0, z: 0}
+      rotation: {x: -0.00000037252903, y: -0.0000018570572, z: 0.03363776, w: 0.9994341}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jaden_LeftHandPinky3
+      parentName: Jaden_LeftHandPinky2
+      position: {x: -0.01692, y: 0, z: 0}
+      rotation: {x: -0.00000008412762, y: 0.0000009658236, z: 0.03363185, w: 0.9994343}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jaden_LPinky3End
+      parentName: Jaden_LeftHandPinky3
+      position: {x: -0.01507, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jaden_RightShoulder
+      parentName: Jaden_Spine1
+      position: {x: 0.03535, y: 0.11628, z: -0.013099999}
+      rotation: {x: 0.007975249, y: 0.08470451, z: 0.093384095, w: 0.9919884}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jaden_RightArm
+      parentName: Jaden_RightShoulder
+      position: {x: 0.14416, y: 0, z: 0}
+      rotation: {x: -0.007875973, y: -0.12333919, z: -0.10603345, w: 0.98665214}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jaden_RightForeArm
+      parentName: Jaden_RightArm
+      position: {x: 0.24879, y: 0, z: 0}
+      rotation: {x: 0.061856195, y: 0.030297158, z: -0.0018785315, w: 0.9976234}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jaden_RightHand
+      parentName: Jaden_RightForeArm
+      position: {x: 0.17805, y: 0, z: 0}
+      rotation: {x: 0.013042599, y: 0.12486532, z: 0.070562705, w: 0.98957545}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jaden_RightHandThumb1
+      parentName: Jaden_RightHand
+      position: {x: 0.020480001, y: -0.023269998, z: 0.03258}
+      rotation: {x: 0.30031043, y: -0.4334631, z: 0.15485577, w: 0.83542997}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jaden_RightHandThumb2
+      parentName: Jaden_RightHandThumb1
+      position: {x: 0.028110001, y: 0, z: 0}
+      rotation: {x: 0.0509993, y: 0.032707464, z: 0.006895337, w: 0.99813914}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jaden_RightHandThumb3
+      parentName: Jaden_RightHandThumb2
+      position: {x: 0.02403, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jaden_RThumb3End
+      parentName: Jaden_RightHandThumb3
+      position: {x: 0.0214, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jaden_RightHandIndex1
+      parentName: Jaden_RightHand
+      position: {x: 0.08378, y: 0, z: 0.03258}
+      rotation: {x: 0.11667937, y: -0.065828875, z: -0.06653772, w: 0.9887494}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jaden_RightHandIndex2
+      parentName: Jaden_RightHandIndex1
+      position: {x: 0.04231, y: 0, z: 0}
+      rotation: {x: -0.00000005960463, y: -0.00000021606678, z: -0.033630736, w: 0.9994344}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jaden_RightHandIndex3
+      parentName: Jaden_RightHandIndex2
+      position: {x: 0.02115, y: 0, z: 0}
+      rotation: {x: 0.000000023401826, y: 0.0000024105698, z: -0.033633728, w: 0.9994343}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jaden_RIndex3End
+      parentName: Jaden_RightHandIndex3
+      position: {x: 0.018839998, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jaden_RightHandMiddle1
+      parentName: Jaden_RightHand
+      position: {x: 0.08378, y: 0, z: 0.0108}
+      rotation: {x: 0.053464904, y: -0.050172735, z: -0.06584362, w: 0.9951326}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jaden_RightHandMiddle2
+      parentName: Jaden_RightHandMiddle1
+      position: {x: 0.046539996, y: 0, z: 0}
+      rotation: {x: 0.000000048428756, y: -0.00000075623365, z: -0.033629593, w: 0.9994344}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jaden_RightHandMiddle3
+      parentName: Jaden_RightHandMiddle2
+      position: {x: 0.02538, y: 0, z: 0}
+      rotation: {x: 0.000000020933001, y: 0.00000050557276, z: -0.03363238, w: 0.99943435}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jaden_RMiddle3End
+      parentName: Jaden_RightHandMiddle3
+      position: {x: 0.02261, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jaden_RightHandRing1
+      parentName: Jaden_RightHand
+      position: {x: 0.07913, y: 0, z: -0.0108}
+      rotation: {x: -0.0899419, y: -0.053705286, z: -0.074175686, w: 0.9917279}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jaden_RightHandRing2
+      parentName: Jaden_RightHandRing1
+      position: {x: 0.04231, y: 0, z: 0}
+      rotation: {x: 0.0000000745058, y: -0.000001374632, z: -0.033633992, w: 0.9994343}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jaden_RightHandRing3
+      parentName: Jaden_RightHandRing2
+      position: {x: 0.02115, y: 0, z: 0}
+      rotation: {x: 0.00000018057943, y: 0.00000034944026, z: -0.03363105, w: 0.9994344}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jaden_RRing3End
+      parentName: Jaden_RightHandRing3
+      position: {x: 0.018839998, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jaden_RightHandPinky1
+      parentName: Jaden_RightHand
+      position: {x: 0.07447, y: 0, z: -0.03258}
+      rotation: {x: -0.15094085, y: -0.053755682, z: -0.076047085, w: 0.98414636}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jaden_RightHandPinky2
+      parentName: Jaden_RightHandPinky1
+      position: {x: 0.03384, y: 0, z: 0}
+      rotation: {x: -0.00000011920925, y: 0.0000012703235, z: -0.033635926, w: 0.9994342}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jaden_RightHandPinky3
+      parentName: Jaden_RightHandPinky2
+      position: {x: 0.01692, y: 0, z: 0}
+      rotation: {x: -0.0000000305904, y: -0.00000048086025, z: -0.033634823, w: 0.9994342}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jaden_RPinky3End
+      parentName: Jaden_RightHandPinky3
+      position: {x: 0.01507, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jaden_LeftUpLeg
+      parentName: Jaden_Hips
+      position: {x: -0.08906, y: 0, z: 0}
+      rotation: {x: 0.0092119295, y: -0.009986492, z: 0.011112327, w: 0.999846}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jaden_LeftLeg
+      parentName: Jaden_LeftUpLeg
+      position: {x: -0, y: -0.42784, z: 0}
+      rotation: {x: 0.14146654, y: 0.0014986487, z: -0.007836894, w: 0.9899109}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jaden_LeftFoot
+      parentName: Jaden_LeftLeg
+      position: {x: -0, y: -0.34173, z: 0}
+      rotation: {x: -0.11980691, y: 0.109449916, z: -0.005262027, w: 0.9867317}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jaden_LeftToeBase
+      parentName: Jaden_LeftFoot
+      position: {x: -0, y: -0.057889998, z: 0.1336}
+      rotation: {x: -0.0051312456, y: 0, z: -0, w: 0.9999868}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jaden_LToeEnd
+      parentName: Jaden_LeftToeBase
+      position: {x: -0, y: 0, z: 0.03563}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jaden_RightUpLeg
+      parentName: Jaden_Hips
+      position: {x: 0.08906, y: 0, z: 0}
+      rotation: {x: 0.012946465, y: 0.022430848, z: -0.012673591, w: 0.99958426}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jaden_RightLeg
+      parentName: Jaden_RightUpLeg
+      position: {x: -0, y: -0.42784, z: 0}
+      rotation: {x: 0.1384515, y: -0.002046242, z: 0.010213561, w: 0.9903144}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jaden_RightFoot
+      parentName: Jaden_RightLeg
+      position: {x: -0, y: -0.34173, z: 0}
+      rotation: {x: -0.15854266, y: 0.044444997, z: -0.051571295, w: 0.98500216}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jaden_RightToeBase
+      parentName: Jaden_RightFoot
+      position: {x: -0, y: -0.057889998, z: 0.1336}
+      rotation: {x: 0.084886536, y: -0, z: -0, w: 0.99639064}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Jaden_RToeEnd
+      parentName: Jaden_RightToeBase
+      position: {x: -0, y: 0, z: 0.03563}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
