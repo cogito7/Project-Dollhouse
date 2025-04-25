@@ -93,7 +93,7 @@ public class PlayerBehavior : MonoBehaviour
 
     void FixedUpdate()
     {
-        //if (CraftingUIManager.IsCraftingOpen) return;
+        if (CraftingUIManager.IsCraftingOpen) return;
 
         
     }
