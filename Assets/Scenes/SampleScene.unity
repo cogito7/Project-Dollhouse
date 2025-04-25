@@ -1318,11 +1318,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a63654098b5cfc44098dd3bba3379e85, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MoveSpeed: 5
   RotateSpeed: 75
   JumpForce: 5
-  animator: {fileID: 0}
   groundDrag: 4
+  animator: {fileID: 0}
   distToGround: 0.4
   groundLayers:
     serializedVersion: 2
