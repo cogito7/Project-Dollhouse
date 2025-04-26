@@ -17,6 +17,8 @@ public class CraftingInventory : MonoBehaviour
 
     private List<string> inventoryItems = new List<string>();
     public List<Image> inventorySlots;
+    private List<string> craftingItems = new List<string>();
+    public List<Image> craftingSlots;
     public Sprite defaultSprite; //empty slot default sprite
     public Image craftingOutputImage; //image for combined puzzle item
 
@@ -59,6 +61,30 @@ public class CraftingInventory : MonoBehaviour
             }
         }
     }
+
+    public void AddItemToCrafting(string itemID, Sprite itemSprite)
+    {
+        if (craftingItems.Count >= 3)
+        {
+            return;
+        }
+        if (!craftingItems.Contains(itemID))//prevents duplicates
+        {
+            craftingItems.Add(itemID);
+            //find empty slot and update UI
+            for (int i = 0; i < craftingSlots.Count; i++)
+            {
+                if (craftingSlots[i].sprite == defaultSprite) //if slot is empty
+                {
+                    craftingSlots[i].sprite = itemSprite;
+                    craftingSlots[i].enabled = true; // Show the image
+                    CheckForCombination();
+                    return;
+                }
+            }
+        }
+    }
+
     private void CheckForCombination()
     {
         foreach (var recipe in craftingRecipes)

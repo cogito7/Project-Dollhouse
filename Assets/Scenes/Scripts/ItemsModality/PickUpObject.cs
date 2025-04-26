@@ -70,6 +70,9 @@ public class PickUpObject : MonoBehaviour
         // Update inventory and check for combination
         CraftingInventory.Instance.AddItemToInventory(itemID, itemSprite);
 
+        //Adds item to crafting inventory
+        CraftingInventory.Instance.AddItemToCrafting(itemID, itemSprite);
+
         // Reset cursor before hiding the object
         Cursor.SetCursor(null, Vector2.zero, CursorMode.Auto);
 
