@@ -22,7 +22,7 @@ public class CraftingInventory : MonoBehaviour
     public Sprite defaultSprite; //empty slot default sprite
     public Image craftingOutputImage; //image for combined puzzle item
 
-    private Dictionary<(string, string), Sprite> craftingRecipes = new Dictionary<(string, string), Sprite>();
+    private Dictionary<(string, string, string), Sprite> craftingRecipes = new Dictionary<(string, string, string), Sprite>();
 
     private void Start()
     {
@@ -36,7 +36,7 @@ public class CraftingInventory : MonoBehaviour
         craftingOutputImage.enabled = true;
 
         //Define crafting recipes
-        craftingRecipes.Add(("key1", "key2"), Resources.Load<Sprite>("Sprites/Piano"));
+        craftingRecipes.Add(("key1", "key2", "key3"), Resources.Load<Sprite>("Sprites/Piano"));
 
     }
     public void AddItemToInventory(string itemID, Sprite itemSprite)
@@ -89,7 +89,7 @@ public class CraftingInventory : MonoBehaviour
     {
         foreach (var recipe in craftingRecipes)
         {
-            if (inventoryItems.Contains(recipe.Key.Item1) && inventoryItems.Contains(recipe.Key.Item2))
+            if (inventoryItems.Contains(recipe.Key.Item1) && inventoryItems.Contains(recipe.Key.Item2) && inventoryItems.Contains(recipe.Key.Item3))
             {
                 // Show the new combined item in the crafting output UI
                 craftingOutputImage.sprite = recipe.Value;
