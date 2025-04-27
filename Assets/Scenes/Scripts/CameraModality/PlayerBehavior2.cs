@@ -70,6 +70,7 @@ public class PlayerBehavior2 : MonoBehaviour
         {
             _rb.AddForce(Vector3.up * JumpForce, ForceMode.Impulse);
         }
+        StepClimb();
     }
 
     void FixedUpdate()
@@ -102,5 +103,33 @@ public class PlayerBehavior2 : MonoBehaviour
 
         Debug.DrawRay(transform.position, Vector3.down * castDistance, Color.cyan);
         return Physics.Raycast(transform.position, Vector3.down, castDistance, groundLayers, QueryTriggerInteraction.Ignore);
+    }
+    void StepClimb()
+    {
+        // Only check for stairs when grounded
+        if (!_isGrounded) return;
+
+        // Maximum height of a step to climb 
+        float maxStepHeight = 1.4f; // Maximum step height the player can walk up
+        float stepSmooth = 0.5f;  // How much to lift the player each time
+
+        // Raycasting to check in front of the player for steps
+        Vector3 origin = transform.position + Vector3.up * 0.1f;  // Start just above the ground (player's feet)
+        Vector3 forward = transform.forward * 0.5f;  // Distance in front of the player to check
+        RaycastHit hit;
+
+        // Raycast downwards to check the surface height
+        if (Physics.Raycast(origin + forward, Vector3.down, out hit, maxStepHeight, groundLayers))
+        {
+            // Calculate the height difference from the detected surface
+            float stepHeight = hit.point.y - origin.y;
+
+            // If the step height is within the acceptable range, help the player climb
+            if (stepHeight > 0 && stepHeight <= maxStepHeight)
+            {
+                // Lift the player gently to climb the step
+                _rb.position = new Vector3(_rb.position.x, _rb.position.y + stepSmooth, _rb.position.z);
+            }
+        }
     }
 }
