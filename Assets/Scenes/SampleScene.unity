@@ -3391,10 +3391,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f20e3d44928ecfd45a34c7e31e460524, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MoveSpeed: 5
   RotateSpeed: 75
   JumpForce: 5
   groundDrag: 2
+  animator: {fileID: 0}
+  distToGround: 0.4
+  groundLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  debug: {fileID: 0}
 --- !u!54 &1549608335
 Rigidbody:
   m_ObjectHideFlags: 0
