@@ -110,8 +110,8 @@ public class PlayerBehavior2 : MonoBehaviour
         if (!_isGrounded) return;
 
         // Maximum height of a step to climb 
-        float maxStepHeight = 1.4f; // Maximum step height the player can walk up
-        float stepSmooth = 0.5f;  // How much to lift the player each time
+        float maxStepHeight = 1.5f; // Maximum step height the player can walk up
+        float stepSmooth = 1.5f;  // How much to lift the player each time
 
         // Raycasting to check in front of the player for steps
         Vector3 origin = transform.position + Vector3.up * 0.1f;  // Start just above the ground (player's feet)
