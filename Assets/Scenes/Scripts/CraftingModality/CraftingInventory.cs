@@ -36,7 +36,7 @@ public class CraftingInventory : MonoBehaviour
         craftingOutputImage.enabled = true;
 
         //Define crafting recipes
-        craftingRecipes.Add(("key1", "key2", "key3"), Resources.Load<Sprite>("Sprites/Piano"));
+        craftingRecipes.Add(("key1", "key2", "key3"), Resources.Load<Sprite>("Sprites/Piano/Piano Key"));
 
     }
     public void AddItemToInventory(string itemID, Sprite itemSprite)
