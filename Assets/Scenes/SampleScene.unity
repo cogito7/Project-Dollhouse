@@ -2411,15 +2411,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ff38dbd4de69f694f9e8891236c1b6cd, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.3038163
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ff38dbd4de69f694f9e8891236c1b6cd, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.50943744
+      value: -1
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ff38dbd4de69f694f9e8891236c1b6cd, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -5.1185317
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: ff38dbd4de69f694f9e8891236c1b6cd, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2461,8 +2461,16 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 5148817236446094103, guid: ff38dbd4de69f694f9e8891236c1b6cd, type: 3}
+      propertyPath: m_Name
+      value: Bow
+      objectReference: {fileID: 0}
     - target: {fileID: 5866666021909216657, guid: ff38dbd4de69f694f9e8891236c1b6cd, type: 3}
       propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: ff38dbd4de69f694f9e8891236c1b6cd, type: 3}
+      propertyPath: m_ApplyRootMotion
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -3364,7 +3372,7 @@ Transform:
   m_GameObject: {fileID: 1549608332}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.2802297, y: 0.6967968, z: -19.451836}
+  m_LocalPosition: {x: -0.31, y: 1.32, z: -23.951}
   m_LocalScale: {x: 1.25, y: 1.25, z: 1.25}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -3412,7 +3420,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 80
+  m_Constraints: 112
   m_CollisionDetection: 0
 --- !u!136 &1549608336
 CapsuleCollider:
@@ -3436,7 +3444,7 @@ CapsuleCollider:
   m_Radius: 0.26
   m_Height: 1.83
   m_Direction: 1
-  m_Center: {x: -0.31, y: 0.61, z: -5.08}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!95 &1549608337
 Animator:
   serializedVersion: 7
