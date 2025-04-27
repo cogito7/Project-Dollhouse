@@ -22,7 +22,8 @@ public class CraftingInventory : MonoBehaviour
     public Sprite defaultSprite; //empty slot default sprite
     public Image craftingOutputImage; //image for combined puzzle item
 
-    private Dictionary<(string, string, string), Sprite> craftingRecipes = new Dictionary<(string, string, string), Sprite>();
+    // Inputs are three crafted items. Output are an item with a corresponding name
+    private Dictionary<(string, string, string), (string, Sprite)> craftingRecipes = new Dictionary<(string, string, string), (string, Sprite)>();
 
     private void Start()
     {
@@ -36,7 +37,7 @@ public class CraftingInventory : MonoBehaviour
         craftingOutputImage.enabled = true;
 
         //Define crafting recipes
-        craftingRecipes.Add(("key1", "key2", "key3"), Resources.Load<Sprite>("Sprites/Piano/Piano Key"));
+        craftingRecipes.Add(("key1", "key2", "key3"), ("complete_key", Resources.Load<Sprite>("Sprites/Piano/Piano Key")));
 
     }
     public void AddItemToInventory(string itemID, Sprite itemSprite)
@@ -92,14 +93,35 @@ public class CraftingInventory : MonoBehaviour
             if (inventoryItems.Contains(recipe.Key.Item1) && inventoryItems.Contains(recipe.Key.Item2) && inventoryItems.Contains(recipe.Key.Item3))
             {
                 // Show the new combined item in the crafting output UI
-                craftingOutputImage.sprite = recipe.Value;
+                craftingOutputImage.sprite = recipe.Value.Item2;
                 craftingOutputImage.enabled = true;
                 return;
-
             }
         }
 
     }
 
-
+    public void Craft()
+    {
+        foreach (var recipe in craftingRecipes)
+        {
+            if (inventoryItems.Contains(recipe.Key.Item1) && inventoryItems.Contains(recipe.Key.Item2) && inventoryItems.Contains(recipe.Key.Item3))
+            {
+                inventoryItems = new List<string>();
+                craftingItems = new List<string>();
+                foreach (Image inventory in inventorySlots)
+                {
+                    inventory.sprite = defaultSprite;
+                }
+                foreach (Image crafting in craftingSlots)
+                {
+                    crafting.sprite = defaultSprite;
+                }
+                craftingOutputImage.sprite = defaultSprite;
+                AddItemToInventory(recipe.Value.Item1, recipe.Value.Item2);
+                AddItemToCrafting(recipe.Value.Item1, recipe.Value.Item2);
+                return;
+            }
+        }
+    }
 }
