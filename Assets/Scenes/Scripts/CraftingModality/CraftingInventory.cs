@@ -119,7 +119,7 @@ public class CraftingInventory : MonoBehaviour
                 }
                 craftingOutputImage.sprite = defaultSprite;
                 AddItemToInventory(recipe.Value.Item1, recipe.Value.Item2);
-                AddItemToCrafting(recipe.Value.Item1, recipe.Value.Item2);
+
                 return;
             }
         }
