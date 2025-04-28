@@ -64,7 +64,7 @@ public class CraftingInventory : MonoBehaviour
         CheckForCombination();
     }
 
-    Sprite GetSprite(string itemID)
+    public Sprite GetSprite(string itemID)
     {
         foreach ((string, Sprite) item in inventoryItems)
         {
@@ -76,13 +76,14 @@ public class CraftingInventory : MonoBehaviour
         return null;
     }
 
-    bool Remove(string itemID)
+    public bool Remove(string itemID)
     {
         for (int i = 0; i < inventoryItems.Count; i++)
         {
             if (inventoryItems[i].Item1 == itemID)
             {
                 inventoryItems.RemoveAt(i);
+                UpdateInventorySlots();
                 return true;
             }
         }
