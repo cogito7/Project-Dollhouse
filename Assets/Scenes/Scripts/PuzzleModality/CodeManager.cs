@@ -4,16 +4,13 @@ using System.Collections.Generic;
 using System.Collections;
 using System.Diagnostics;
 
-public class LockUI : MonoBehaviour
+public class CodeManager : MonoBehaviour
 {
-    public string correctCode = "7423";
-    //public GameObject doorToOpen;
-    public GameObject lockPanel;
-    public GameObject pianoKey;
-    public Text playerInput;
+    public GameObject zoomedPaper;
+
 
     public GameObject[] players; // Assign both Player and Player2 in the Inspector
-    public float pickupRange = 2f;
+    public float pickupRange = 3f;
     public Vector2 cursorHotspot = Vector2.zero;
     public Texture2D handCursor;
     private bool isCursorOver = false;
@@ -21,8 +18,7 @@ public class LockUI : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        lockPanel.SetActive(false);
-        pianoKey.SetActive(false);
+        zoomedPaper.SetActive(false);
     }
 
     // Update is called once per frame
@@ -30,20 +26,12 @@ public class LockUI : MonoBehaviour
     {
         /*if(Input.GetMouseButtonDown(0))
         {
-            lockPanel.SetActive(true);
+            zoomedPaper.SetActive(true);
         }*/
         if(Input.GetKeyDown(KeyCode.Escape))
         {
-            lockPanel.SetActive(false);
+            zoomedPaper.SetActive(false);
         }
-
-        string inputText = playerInput.text;
-
-        if(inputText.Equals(correctCode))
-        {
-            SubmitCode();
-        }
-
 
 
 
@@ -59,7 +47,7 @@ public class LockUI : MonoBehaviour
                 openHandCursor = true;
                 if (Input.GetMouseButtonDown(0))
                 {
-                    lockPanel.SetActive(true);
+                    zoomedPaper.SetActive(true);
                     break;
                 }
             }
@@ -76,12 +64,5 @@ public class LockUI : MonoBehaviour
             Cursor.SetCursor(null, Vector2.zero, CursorMode.Auto);
             isCursorOver = false;
         }
-    }
-
-    public void SubmitCode()
-    {
-        //doorToOpen.GetComponent<Animator>().SetBool("isOpen", true);
-        pianoKey.SetActive(true);
-        lockPanel.SetActive(false);
     }
 }
