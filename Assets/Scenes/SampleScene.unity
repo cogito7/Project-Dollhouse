@@ -410,16 +410,16 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 259393751}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.3321591, y: 0.3321591, z: 0.3321591}
+  m_LocalScale: {x: 0.14182103, y: 0.14182103, z: 0.14182103}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1596709517}
+  m_Father: {fileID: 1484637288}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0.5}
   m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 76, y: 362}
+  m_AnchoredPosition: {x: 32.449997, y: 176.02187}
   m_SizeDelta: {x: 228, y: 259}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &259393753
@@ -2510,7 +2510,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   craftingPanel: {fileID: 786659420}
-  pausemenu: {fileID: 879766458}
+  pausemenu: {fileID: 1596709516}
 --- !u!1 &1068323312
 GameObject:
   m_ObjectHideFlags: 0
@@ -3045,6 +3045,7 @@ RectTransform:
   m_Children:
   - {fileID: 1068323313}
   - {fileID: 1614325902}
+  - {fileID: 259393752}
   - {fileID: 1596709517}
   - {fileID: 389781016}
   - {fileID: 914535777}
@@ -3497,7 +3498,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 879766459}
-  - {fileID: 259393752}
   m_Father: {fileID: 1484637288}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
