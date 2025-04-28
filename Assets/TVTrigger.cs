@@ -12,6 +12,7 @@ public class TVTrigger : MonoBehaviour
     public float activationRange = 2f;
     public Texture2D handCursor;
     public CraftingInventory inventory;
+    private bool isCursorOver = false;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -41,13 +42,16 @@ public class TVTrigger : MonoBehaviour
             }
         }
 
-        //if (openHandCursor)
-        //{
-        //    Cursor.SetCursor(handCursor, Vector3.zero, CursorMode.Auto);
-        //}
-        //else
-        //{
-
-        //}
+        //handle cursor swap
+        if (openHandCursor && !isCursorOver)
+        {
+            Cursor.SetCursor(handCursor, Vector2.zero, CursorMode.Auto);
+            isCursorOver = true;
+        }
+        else if (!openHandCursor && isCursorOver)
+        {
+            Cursor.SetCursor(null, Vector2.zero, CursorMode.Auto);
+            isCursorOver = false;
+        }
     }
 }
