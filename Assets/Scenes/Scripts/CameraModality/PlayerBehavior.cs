@@ -3,7 +3,7 @@ using UnityEngine.UI;
 
 public class PlayerBehavior : MonoBehaviour
 {
-    //public float MoveSpeed = 10f;
+    public float MoveSpeed = 10f;
     public float RotateSpeed = 75f;
     public float JumpForce = 5f;
 
