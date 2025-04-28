@@ -1599,7 +1599,9 @@ MonoBehaviour:
   turnOn: {fileID: 2143036094}
   video: {fileID: 0}
   triggerLocation: {fileID: 504967968}
-  players: []
+  players:
+  - {fileID: 506377797}
+  - {fileID: 1549608332}
   itemRequired: complete_key
   activationRange: 2
   handCursor: {fileID: 2800000, guid: 7c24ce0d8b8fb2d4ab451047bbf20fdd, type: 3}
