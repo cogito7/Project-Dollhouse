@@ -3961,6 +3961,7 @@ MonoBehaviour:
             m_BoolArgument: 0
           m_CallState: 2
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 --- !u!1 &1518941149 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5263680006969453854, guid: fa439264768be8e42aa545669ee8a00a, type: 3}
@@ -3968,6 +3969,8 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
 --- !u!114 &1518941151
 =======
+=======
+>>>>>>> Stashed changes
 --- !u!1 &1502437950
 GameObject:
   m_ObjectHideFlags: 0
@@ -4007,12 +4010,16 @@ RectTransform:
   m_SizeDelta: {x: 882, y: 257}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1502437952
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
   m_GameObject: {fileID: 1518941149}
   m_Enabled: 1
@@ -4030,6 +4037,8 @@ MonoBehaviour:
   handCursor: {fileID: 2800000, guid: 7c24ce0d8b8fb2d4ab451047bbf20fdd, type: 3}
   alsoRemove: {fileID: 0}
 =======
+=======
+>>>>>>> Stashed changes
   m_GameObject: {fileID: 1502437950}
   m_Enabled: 1
   m_EditorHideFlags: 0
@@ -4137,6 +4146,9 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1545139492}
   m_CullTransparentMesh: 1
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 --- !u!1 &1549608332
 GameObject:
@@ -4699,16 +4711,22 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 1485143219}
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     - targetCorrespondingSourceObject: {fileID: 5263680006969453854, guid: fa439264768be8e42aa545669ee8a00a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1518941151}
 =======
+=======
+>>>>>>> Stashed changes
     - targetCorrespondingSourceObject: {fileID: 3746371666323148470, guid: fa439264768be8e42aa545669ee8a00a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 699023211}
     - targetCorrespondingSourceObject: {fileID: 3746371666323148470, guid: fa439264768be8e42aa545669ee8a00a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 699023213}
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
   m_SourcePrefab: {fileID: 100100000, guid: fa439264768be8e42aa545669ee8a00a, type: 3}
 --- !u!1 &1740939547
