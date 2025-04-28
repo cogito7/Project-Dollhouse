@@ -15,7 +15,7 @@ public class CraftingUIManager : MonoBehaviour
     {
         craftingPanel.SetActive(false); // Hide the panel at start
         pausemenu.SetActive(false); // Hide the panel at start
-        lockPanel.SetActive(false);
+        if (lockPanel) lockPanel.SetActive(false);
         Cursor.lockState = CursorLockMode.None; // Make sure cursor is always free
         Cursor.visible = true; // Ensure the cursor is visible from the start
     }
