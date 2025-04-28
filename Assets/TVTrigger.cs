@@ -34,7 +34,7 @@ public class TVTrigger : MonoBehaviour
                     turnOn.SetActive(true);
                     inventory.Remove(itemRequired);
                 }
-                if (turnOn.activeSelf)
+                if (Input.GetMouseButtonDown(0) && turnOn.activeSelf && video)
                 {
                     video.Play();
                 }
