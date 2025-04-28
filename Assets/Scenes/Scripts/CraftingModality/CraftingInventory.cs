@@ -46,7 +46,6 @@ public class CraftingInventory : MonoBehaviour
         {
             inventoryItems.Add((itemID, itemSprite));
             UpdateInventorySlots();
-            CheckForCombination();
         }
     }
     private void UpdateInventorySlots()
@@ -62,6 +61,7 @@ public class CraftingInventory : MonoBehaviour
                 inventorySlots[i].sprite = defaultSprite;
             }
         }
+        CheckForCombination();
     }
 
     Sprite GetSprite(string itemID)
@@ -115,6 +115,10 @@ public class CraftingInventory : MonoBehaviour
 
     private void CheckForCombination()
     {
+        craftingSlots[0].sprite = defaultSprite;
+        craftingSlots[1].sprite = defaultSprite;
+        craftingSlots[2].sprite = defaultSprite;
+        craftingOutputImage.sprite = defaultSprite;
         foreach (var recipe in craftingRecipes)
         {
             Sprite sprite1 = GetSprite(recipe.Key.Item1);
@@ -145,8 +149,8 @@ public class CraftingInventory : MonoBehaviour
                 Remove(recipe.Key.Item1);
                 Remove(recipe.Key.Item2);
                 Remove(recipe.Key.Item3);
-                UpdateInventorySlots();
                 AddItemToInventory(recipe.Value.Item1, recipe.Value.Item2);
+                UpdateInventorySlots();
 
                 return;
             }
