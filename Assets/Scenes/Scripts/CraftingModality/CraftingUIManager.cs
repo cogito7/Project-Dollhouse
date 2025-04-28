@@ -5,14 +5,17 @@ public class CraftingUIManager : MonoBehaviour
 {
     public GameObject craftingPanel;
     public GameObject pausemenu;
+    public GameObject lockPanel;
     private bool isOpen = false;
     public static bool IsCraftingOpen { get; private set; }
     public static bool IsPauseOpen { get; private set; }
+    public static bool IsLockOpen { get; private set; }
 
     void Start()
     {
         craftingPanel.SetActive(false); // Hide the panel at start
         pausemenu.SetActive(false); // Hide the panel at start
+        if (lockPanel) lockPanel.SetActive(false);
         Cursor.lockState = CursorLockMode.None; // Make sure cursor is always free
         Cursor.visible = true; // Ensure the cursor is visible from the start
     }
@@ -43,11 +46,6 @@ public class CraftingUIManager : MonoBehaviour
         isOpen = false;
         IsPauseOpen = false;
         pausemenu.SetActive(false);
-    }
-
-    void Update()
-    {
-
     }
 
     private bool IsPointerOverUI()
