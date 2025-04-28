@@ -15,7 +15,7 @@ public class CraftingInventory : MonoBehaviour
             Destroy(gameObject);
     }
 
-    private List<string> inventoryItems = new List<string>();
+    private List<(string, Sprite)> inventoryItems = new List<(string, Sprite)>();
     public List<Image> inventorySlots;
     private List<string> craftingItems = new List<string>();
     public List<Image> craftingSlots;
@@ -42,25 +42,51 @@ public class CraftingInventory : MonoBehaviour
     }
     public void AddItemToInventory(string itemID, Sprite itemSprite)
     {
-        if (inventoryItems.Count >= 3)
+        if (!inventoryItems.Contains((itemID, itemSprite))) //prevents duplicates
         {
-            return;
+            inventoryItems.Add((itemID, itemSprite));
+            UpdateInventorySlots();
+            CheckForCombination();
         }
-        if (!inventoryItems.Contains(itemID))//prevents duplicates
+    }
+    private void UpdateInventorySlots()
+    {
+        for (int i = 0;i < inventorySlots.Count; i++)
         {
-            inventoryItems.Add(itemID);
-            //find empty slot and update UI
-            for (int i = 0; i < inventorySlots.Count; i++)
+            if (i < inventoryItems.Count)
             {
-                if (inventorySlots[i].sprite == defaultSprite) //if slot is empty
-                {
-                    inventorySlots[i].sprite = itemSprite;
-                    inventorySlots[i].enabled = true; // Show the image
-                    CheckForCombination();
-                    return;
-                }
+                inventorySlots[i].sprite = inventoryItems[i].Item2;
+            }
+            else
+            {
+                inventorySlots[i].sprite = defaultSprite;
             }
         }
+    }
+
+    Sprite GetSprite(string itemID)
+    {
+        foreach ((string, Sprite) item in inventoryItems)
+        {
+            if (item.Item1 == itemID)
+            {
+                return item.Item2;
+            }
+        }
+        return null;
+    }
+
+    bool Remove(string itemID)
+    {
+        for (int i = 0; i < inventoryItems.Count; i++)
+        {
+            if (inventoryItems[i].Item1 == itemID)
+            {
+                inventoryItems.RemoveAt(i);
+                return true;
+            }
+        }
+        return false;
     }
 
     public void AddItemToCrafting(string itemID, Sprite itemSprite)
@@ -84,15 +110,24 @@ public class CraftingInventory : MonoBehaviour
                 }
             }
         }
+        CheckForCombination();
     }
 
     private void CheckForCombination()
     {
         foreach (var recipe in craftingRecipes)
         {
-            if (inventoryItems.Contains(recipe.Key.Item1) && inventoryItems.Contains(recipe.Key.Item2) && inventoryItems.Contains(recipe.Key.Item3))
+            Sprite sprite1 = GetSprite(recipe.Key.Item1);
+            Sprite sprite2 = GetSprite(recipe.Key.Item2);
+            Sprite sprite3 = GetSprite(recipe.Key.Item3);
+            Debug.Log("here1");
+            if (sprite1 != null && sprite2 != null && sprite3 != null)
             {
+                Debug.Log("here2");
                 // Show the new combined item in the crafting output UI
+                craftingSlots[0].sprite = sprite1;
+                craftingSlots[1].sprite = sprite2;
+                craftingSlots[2].sprite = sprite3;
                 craftingOutputImage.sprite = recipe.Value.Item2;
                 craftingOutputImage.enabled = true;
                 return;
@@ -105,19 +140,12 @@ public class CraftingInventory : MonoBehaviour
     {
         foreach (var recipe in craftingRecipes)
         {
-            if (inventoryItems.Contains(recipe.Key.Item1) && inventoryItems.Contains(recipe.Key.Item2) && inventoryItems.Contains(recipe.Key.Item3))
+            if (GetSprite(recipe.Key.Item1) && GetSprite(recipe.Key.Item2) && GetSprite(recipe.Key.Item3))
             {
-                inventoryItems = new List<string>();
-                craftingItems = new List<string>();
-                foreach (Image inventory in inventorySlots)
-                {
-                    inventory.sprite = defaultSprite;
-                }
-                foreach (Image crafting in craftingSlots)
-                {
-                    crafting.sprite = defaultSprite;
-                }
-                craftingOutputImage.sprite = defaultSprite;
+                Remove(recipe.Key.Item1);
+                Remove(recipe.Key.Item2);
+                Remove(recipe.Key.Item3);
+                UpdateInventorySlots();
                 AddItemToInventory(recipe.Value.Item1, recipe.Value.Item2);
 
                 return;

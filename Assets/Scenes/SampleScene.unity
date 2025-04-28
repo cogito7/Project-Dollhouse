@@ -300,6 +300,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7576545547807491139, guid: 33d869b81b58811439ce460e14ce335f, type: 3}
       insertIndex: -1
       addedObject: {fileID: 140779680}
+    - targetCorrespondingSourceObject: {fileID: 6192821141617711053, guid: 33d869b81b58811439ce460e14ce335f, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 140779683}
   m_SourcePrefab: {fileID: 100100000, guid: 33d869b81b58811439ce460e14ce335f, type: 3}
 --- !u!1 &140779679 stripped
 GameObject:
@@ -328,6 +331,37 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -8567267793735954352, guid: 184668e26044c054eb04515de96a1bbd, type: 3}
+--- !u!1 &140779681 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6192821141617711053, guid: 33d869b81b58811439ce460e14ce335f, type: 3}
+  m_PrefabInstance: {fileID: 140779678}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &140779682 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1181510280649234129, guid: 33d869b81b58811439ce460e14ce335f, type: 3}
+  m_PrefabInstance: {fileID: 140779678}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &140779683
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 140779681}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 605fea3df98c1184d8e403b8bb676d97, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemID: BroomStick
+  itemSprite: {fileID: 21300000, guid: 26785a55720b7a6469df42b7dd4e91a6, type: 3}
+  players:
+  - {fileID: 506377797}
+  - {fileID: 1549608332}
+  pickupRange: 2
+  cursorHotspot: {x: 0, y: 0}
+  handCursor: {fileID: 2800000, guid: 7c24ce0d8b8fb2d4ab451047bbf20fdd, type: 3}
+  alsoRemove: {fileID: 0}
 --- !u!1 &148026394
 GameObject:
   m_ObjectHideFlags: 0
@@ -1325,6 +1359,7 @@ MonoBehaviour:
   pickupRange: 2
   cursorHotspot: {x: 0, y: 0}
   handCursor: {fileID: 2800000, guid: 7c24ce0d8b8fb2d4ab451047bbf20fdd, type: 3}
+  alsoRemove: {fileID: 0}
 --- !u!65 &455747046
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1961,6 +1996,7 @@ MonoBehaviour:
   pickupRange: 2
   cursorHotspot: {x: 0, y: 0}
   handCursor: {fileID: 2800000, guid: 7c24ce0d8b8fb2d4ab451047bbf20fdd, type: 3}
+  alsoRemove: {fileID: 0}
 --- !u!65 &825425029
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3356,6 +3392,7 @@ MonoBehaviour:
   pickupRange: 2
   cursorHotspot: {x: 0, y: 0}
   handCursor: {fileID: 2800000, guid: 7c24ce0d8b8fb2d4ab451047bbf20fdd, type: 3}
+  alsoRemove: {fileID: 140779682}
 --- !u!65 &1476604017
 BoxCollider:
   m_ObjectHideFlags: 0

@@ -8,6 +8,8 @@ public class PickUpObject : MonoBehaviour
     public float pickupRange = 2f;
     public Vector2 cursorHotspot = Vector2.zero;
     public Texture2D handCursor;
+    // For the dollhouse key, we need a way to remove the big key
+    public GameObject alsoRemove;
     private float rotationSpeed = 0.001f;
     private bool isCollected = false;
     private bool isCursorOver = false;
@@ -80,6 +82,10 @@ public class PickUpObject : MonoBehaviour
 
         // Hide the object in the scene
         gameObject.SetActive(false);
+        if (alsoRemove != null)
+        {
+            alsoRemove.SetActive(false);
+        }
     }
 
     public bool IsCollected()
