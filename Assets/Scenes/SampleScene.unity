@@ -1606,7 +1606,7 @@ MonoBehaviour:
   - {fileID: 506377797}
   - {fileID: 1549608332}
   itemRequired: complete_key
-  activationRange: 2
+  activationRange: 3
   handCursor: {fileID: 2800000, guid: 7c24ce0d8b8fb2d4ab451047bbf20fdd, type: 3}
   inventory: {fileID: 1015605873}
 --- !u!1 &506377797
@@ -2062,15 +2062,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5ee36df828db2b843a33f5272fa1b517, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -13.33
+      value: -15.403
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5ee36df828db2b843a33f5272fa1b517, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -8.801
+      value: -8.42
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5ee36df828db2b843a33f5272fa1b517, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 45.006
+      value: 45.745
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 5ee36df828db2b843a33f5272fa1b517, type: 3}
       propertyPath: m_LocalRotation.w
@@ -2110,7 +2110,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 5ee36df828db2b843a33f5272fa1b517, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3783,7 +3783,7 @@ MonoBehaviour:
   players:
   - {fileID: 506377797}
   - {fileID: 1549608332}
-  pickupRange: 2
+  pickupRange: 3
   cursorHotspot: {x: 0, y: 0}
   handCursor: {fileID: 2800000, guid: 7c24ce0d8b8fb2d4ab451047bbf20fdd, type: 3}
   alsoRemove: {fileID: 140779682}
