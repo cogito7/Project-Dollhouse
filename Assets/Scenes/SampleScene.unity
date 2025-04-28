@@ -2739,6 +2739,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   craftingPanel: {fileID: 786659420}
   pausemenu: {fileID: 1596709516}
+  lockPanel: {fileID: 0}
 --- !u!1 &1068323312
 GameObject:
   m_ObjectHideFlags: 0
@@ -3155,15 +3156,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 67643cf97a23f474d9205c1b2884d3e0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.51
+      value: 5.145
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 67643cf97a23f474d9205c1b2884d3e0, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -7.96
+      value: -8.436
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 67643cf97a23f474d9205c1b2884d3e0, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 49.53
+      value: 49.42
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 67643cf97a23f474d9205c1b2884d3e0, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3253,7 +3254,7 @@ CapsuleCollider:
   m_ProvidesContacts: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Radius: 0.64
+  m_Radius: 0.06
   m_Height: 0.015800005
   m_Direction: 1
   m_Center: {x: -3.081488e-33, y: 0.00000095414, z: 0.004039276}
